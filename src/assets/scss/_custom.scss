@@ -3,159 +3,192 @@ $primary: #EC2059;
 $drk-pink: #BD1746;
 $drk-gray: #2A2C35;
 $lt-gray: #F4F4F7;
-
-section{
-  height: 100%;
+section {
+    height: 100%;
 }
 
-.form-block{
-  background: $md-gray;
+.form-block {
+    background: $md-gray;
 }
-.logo{
-  width: 14%;
-  margin: 30px;
-}
-.hero-block{
-  background: $primary; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient($primary, $drk-pink); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($primary, $drk-pink); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($primary, $drk-pink); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($primary, $drk-pink); /* Standard syntax */
-}
-.hero-photo{
-  width: 15%;
-}
-.single-image{
-  padding: 15px 30px 0;
-}
-h1{
-  color: white;
-  font-weight: 700;
-  padding: 40px 0 0 40px;
-  font-size: 2.5em;
-}
-h2{
- color: $drk-gray;
- font-size: 1.4em;
- text-align: center;
- margin: 20px;
- font-weight: 700;
-}
-h3{
-  color: $primary;
-  font-size: 1.8em;
-  font-weight: 700;
-  margin-left: 40px;
-}
-h4{
-  color: white;
-  padding: 20px 80px 0 40px;
-  font-size: 1.5em;
-}
-.hero-content{
-  height: 300px;
-}
-p{
-  color: $drk-gray;
-  font-size: 1.4em;
-  line-height: 1.3em;
-}
- #body .grid-padding-y{
-   padding: 30px 50px 20px 30px;
- }
 
-li{
-  font-size: 1.3em;
-  margin-left: 55px;
+.logo {
+    width: 14%;
+    margin: 30px;
 }
-#body img{
-  display: table-cell;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  vertical-align: bottom;
+
+.hero-block {
+    background: $primary;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($primary, $drk-pink);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($primary, $drk-pink);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($primary, $drk-pink);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient($primary, $drk-pink);
+    /* Standard syntax */
 }
-#body .auto.cell{
-  padding: 0;
-  margin: 0;
+
+.hero-photo {
+    width: 15%;
 }
-#body p{
-  margin: 30px 100px 20px 40px;
-  font-size: 1.2em;
+
+.single-image {
+    padding: 15px 30px 0;
 }
-footer{
-  height: 100%;
-  color: $md-gray;
-  background-color: $drk-gray;
-  padding: 50px 0;
+
+h1 {
+    color: white;
+    font-weight: 700;
+    padding: 40px 0 0 40px;
+    font-size: 2.5em;
 }
-footer p{
-  color: white;
+
+h2 {
+    color: $drk-gray;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
 }
-footer a{
-  transition: color 0.3s ease;
-  display: inline;
-  color: $md-gray;
-  font-size: .7em;
-  margin: 10px;
+
+h3 {
+    color: $primary;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 40px;
 }
-footer a:hover{
-  color: white;
+
+h4 {
+    color: white;
+    padding: 10px 30px 0 10px;
+    font-size: 1.5em;
 }
-footer .input-group{
-  margin-top: 20px;
+
+.hero-content {
+    height: 300px;
 }
-.copyright{
-  font-size: .7em;
+
+p {
+    color: $drk-gray;
+    font-size: 1.4em;
+    line-height: 1.3em;
 }
-.footer-rule{
-  border-top: 1px solid white;
+
+#body .grid-padding-y {
+    padding: 30px 50px 20px 30px;
+}
+
+li {
+    font-size: 1.3em;
+    margin-left: 55px;
+}
+
+#body img {
+    display: table-cell;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+#body .auto.cell {
+    padding: 0;
+    margin: 0;
+}
+
+#body p {
+    margin: 30px 100px 20px 40px;
+    font-size: 1.2em;
+}
+
+footer {
+    height: 100%;
+    color: $md-gray;
+    background-color: $drk-gray;
+    padding: 50px 0;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    display: inline;
+    color: $md-gray;
+    font-size: .7em;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .input-group {
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: .7em;
+}
+
+.footer-rule {
+    border-top: 1px solid white;
 }
 
 //media queries
 //----------------------------------------
 @media screen and (max-width: 834px) {
-  h1{
-    font-size: 2em;
-  }
+    h1 {
+        font-size: 2em;
+    }
 }
+
 @media screen and (max-width: 834px) {
-  h4{
-    font-size: 1.2em;
-    margin: 10px 10px 20px 20px;
-  }
+    h4 {
+        font-size: 1.2em;
+        margin: 10px;
+    }
 }
+
 @media screen and (max-width: 834px) {
-  .logo{
-    width: 20%;
-  }
+    .logo {
+        width: 20%;
+    }
 }
+
 @media screen and (max-width: 420px) {
-  h1{
-    font-size: 1.5em;
-  }
+    h1 {
+        font-size: 2em;
+        padding: 10px;
+    }
 }
+
 @media screen and (max-width: 420px) {
-  .logo{
-    width: 28%;
-  }
+    .logo {
+        width: 28%;
+    }
 }
+
 @media screen and (max-width: 834px) {
-  #body img{
-    margin-left: 0;
-    padding-right: 0;
-    margin-top: 20px;
-  }
+    #body img {
+        margin-left: 0;
+        padding-right: 0;
+        margin-top: 20px;
+    }
 }
+
 @media screen and (max-width: 420px) {
-  #body p{
-    margin: 10px 10px 20px 20px;
-  }
+    #body p {
+        margin: 10px 10px 20px 20px;
+    }
 }
+
 @media screen and (max-width: 420px) {
-  p{
-    color: $drk-gray;
-    font-size: 1.2em;
-    line-height: 1.4em;
-    margin: 30px 20px 20px 20px;
-  }
+    p {
+        color: $drk-gray;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        margin: 30px 20px 20px 20px;
+    }
 }
